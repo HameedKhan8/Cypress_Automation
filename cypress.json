@@ -1,0 +1,25 @@
+{
+    "chromeWebSecurity": false,
+    "waitForAnimations": true,
+    "defaultCommandTimeout": 10000,
+    "projectId": "tadyu8",
+    "testFiles": "**/*.{feature,features}",
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "reportDir": "cypress/reports/mocha",
+            "quite": true,
+            "overwrite": false,
+            "html": true,
+            "json": true
+        },
+       
+  "env": {
+    "testUrl": "https://www.fashionphile.com/",
+    "devUrl": "https://esa.ens.sch.ae:8443/",
+    "prodUrl": "https://esa.ens.sch.ae:8443/"
+    
+  }
+    }
+}

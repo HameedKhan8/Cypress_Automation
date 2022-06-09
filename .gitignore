@@ -1,0 +1,24 @@
+** Install cypress **
+npm install cypress
+
+** Install cucumber **
+npm install cypress
+
+** Install Mocha **
+npm install mocha --save-dev
+
+** Install cypress-multi-reporters **
+npm install cypress-multi-reporters --save-dev
+
+** Install mochawesome **
+npm install mochawesome --save-dev
+
+** Install mochawesome-merge **
+npm install mochawesome-merge --save-dev
+
+** Install mochawesome-report-generator **
+npm install mochawesome-report-generator --save-dev
+
+** Run test on CI **
+npx cypress run --record --key 4a83dbfa-7fe3-47e8-a9f9-7d9ef8a621eb
+node_modules
